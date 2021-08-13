@@ -16,7 +16,7 @@ Generates a 2.5khz ( 50% duty ) square signal suitable for red wire.
 
 ![](doc/schematic.png)
 
-![](doc/tx-signal.jpg)
+<img src="doc/tx-signal.jpg" height=300/>
 
 ### Usage
 
