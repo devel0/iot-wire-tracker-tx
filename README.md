@@ -28,7 +28,7 @@ example:
 |  | ... |
 |  | cable_unkX |
 
-:warning:
+:warning: **Warnings** :
 - ensure no voltage present on cables either for the tx side and other side cables
 
 - connect cable_txred to the pin 9
