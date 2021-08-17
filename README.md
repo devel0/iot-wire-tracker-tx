@@ -2,8 +2,9 @@
 
 <!-- TOC -->
 * [Description](#description)
-  + [Usage](#usage)
+* [Usage](#usage)
 * [Notes](#notes)
+* [Prototype example](#prototype-example)
 * [How this project was built](#how-this-project-was-built)
 <!-- TOCEND -->
 
@@ -22,7 +23,7 @@ Generates a square signal train ( 50% duty ) on pin 9 suitable for a wire tracke
 
 ![](doc/tx-signal.png)
 
-### Usage
+## Usage
 
 example:
 | **tx side** | **other side** |
@@ -45,6 +46,10 @@ example:
 
 ## Notes
 - 10k resistor allow to safely short circuit between red, black wire to cancel the signal in the counterverify step without destroy the pin9 port because of high level output while connects to gnd ( black cable )
+
+## Prototype example
+
+![](doc/wire-tracker-tx.jpg)
 
 ## How this project was built
 
