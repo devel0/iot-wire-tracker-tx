@@ -38,7 +38,7 @@ example:
 - connect cable_txred to the pin 9
 - connect cable_black to the 10k resistor that in turn connects to GND 
 - go to the other side with the wire tracker rx tool ( not provided ) that amplify into a speaker detected signal moving the point on wires
-- two wires ( corresponding to the counterpart cable_txred and cable_black ) cause high volume on speaker
+- two wires ( corresponding to the counterpart cable_txred and cable_black ) produces high volume on speaker
 - counterverify if cable_unk1 e and cable_unk2 are those searched by connecting them together and if the speaker stop this mean that they are those matching source tx.
 - place a mark on two wires matched
 - **important** : go to the tx side and disconnect cable_txred, cable_black before to reapply any voltage on cables or tx module could get damaged
