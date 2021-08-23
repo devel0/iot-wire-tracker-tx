@@ -14,7 +14,7 @@
 
 Crude replacement for a damaged wire tracker tx module.
 
-Generates a square signal train ( 50% duty ) on pin 9 suitable for a wire tracker transmitter with follow train sequence:
+Generates a square signal train ( 50% duty ) on pin 9 suitable for a wire tracker receiver with follow train sequence:
 - 50ms @2500 hz
 - 50ms @833 hz
 - 50ms @625 hz
