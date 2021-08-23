@@ -19,6 +19,10 @@ Generates a square signal train ( 50% duty ) on pin 9 suitable for a wire tracke
 - 50ms @833 hz
 - 50ms @625 hz
 
+Signal will completely disabled if red/black wire shorts due to triggering on pin 2 ; it will restart when short removed.
+
+[schematic](https://oshwlab.com/lorenzo.delana/iot-wire-tracker-tx)
+
 ![](doc/schematic.png)
 
 ![](doc/tx-signal.png)
@@ -40,7 +44,7 @@ example:
 - connect cable_black to the 10k resistor that in turn connects to GND 
 - go to the other side with the wire tracker rx tool ( not provided ) that amplify into a speaker detected signal moving the point on wires
 - two wires ( corresponding to the counterpart cable_txred and cable_black ) produces high volume on speaker
-- counterverify if cable_unk1 e and cable_unk2 are those searched by connecting them together and if the speaker stop this mean that they are those matching source tx.
+- counterverify if cable_unk1 e and cable_unk2 are those searched by connecting them together and if the speaker stop this mean that they are those matching source tx. during this phase the arduino led will blink fast.
 - place a mark on two wires matched
 - **important** : go to the tx side and disconnect cable_txred, cable_black before to reapply any voltage on cables or tx module could get damaged
 
